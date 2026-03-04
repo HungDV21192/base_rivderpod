@@ -1,0 +1,19 @@
+{
+  "login": {
+    "title": "Welcome Back",
+    "button": "Login",
+    "error": "Invalid username or password",
+    "username": "Username",
+    "password": "Password",
+    "remember_me": "Remember me",
+    "vietnam": "Vietnames",
+    "english": "English",
+    "select_language": "Select language",
+    "has_account": "Already have an account?",
+    "not_has_account": "Don’t have an account?",
+    "sign_in": "Sign In",
+    "sign_up": "Sign Up",
+    "confirm_password": "Confirm password",
+    "forgot_account": "Forgot your account?"
+  }
+}

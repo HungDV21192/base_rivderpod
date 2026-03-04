@@ -1,0 +1,19 @@
+{
+  "login": {
+    "title": "Chào mừng trở lại",
+    "button": "Đăng nhập",
+    "error": "Tên đăng nhập hoặc mật khẩu không đúng",
+    "username": "Tài khoản",
+    "password": "Mật khẩu",
+    "remember_me": "Nhớ tài khoản",
+    "vietnam": "Việt Nam",
+    "english": "English",
+    "select_language": "Chọn ngôn ngữ",
+    "has_account": "Bạn đã có tài khoản?",
+    "not_has_account": "Bạn chưa có tài khoản?",
+    "sign_in": "Đăng nhập",
+    "sign_up": "Đăng ký",
+    "confirm_password": "Nhập lại mật khẩu",
+    "forgot_account": "Quên tài khoản?"
+  }
+}

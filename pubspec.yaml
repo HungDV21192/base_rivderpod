@@ -1,0 +1,55 @@
+name: riverpod_demo
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+#  state:
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+#  network:
+  dio: ^5.9.1
+  curl_logger_dio_interceptor: ^1.0.1
+#  router:
+  go_router: ^14.0.0
+#  storage:
+  flutter_secure_storage: ^10.0.0
+#  splash:
+  flutter_native_splash: ^2.4.7
+#  store:
+  shared_preferences: ^2.5.3
+  #  multiple language
+  slang: ^3.30.0
+  slang_flutter: ^3.30.0
+  flutter_localization: ^0.3.3
+#  flutter_localization: ^0.3.3
+  #font
+  google_fonts: ^6.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  riverpod_generator: ^2.4.0
+  riverpod_lint: ^2.3.10
+  custom_lint: ^0.6.4
+  build_runner: ^2.4.8
+  flutter_lints: ^6.0.0
+  slang_build_runner: ^3.30.0
+
+flutter_native_splash:
+  background_image: assets/images/splash_screen.png # android ko đc xem ios đc ko
+  android_12:
+    # Vì Android 12 không cho dùng background_image,
+    # bạn nên dùng màu chủ đạo của ảnh đó làm nền
+    color: "#328589"
+    # Dùng chính file ảnh đó làm icon (nó sẽ thu nhỏ lại ở giữa)
+    image: assets/images/logo_app.png
+  android: true
+  fullscreen: true
+  ios: true
+flutter:
+  uses-material-design: true
